@@ -1,7 +1,23 @@
 [project]
 name = "rag"
 version = "0.1.0"
-description = "Add your description here"
+description = "RAG experiments"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "chromadb>=0.5.23",
+    "fastembed>=0.4.2",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.15",
+    "langchain-chroma>=0.2.0",
+    "langchain-community>=0.3.15",
+    "langchain-huggingface>=0.1.2",
+    "langchain-ollama>=0.2.2",
+    "langchain-openai>=0.3.2",
+    "nbformat>=5.10.4",
+    "numpy>=1.26.4",
+    "plotly>=5.24.1",
+    "pypdf>=5.1.0",
+    "tqdm>=4.67.1",
+    "umap-learn>=0.5.7",
+]
